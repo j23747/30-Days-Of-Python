@@ -39,9 +39,22 @@
 # num_str = str(num_int)
 # print(num_str)                  # '10'
 
-# Declaring MUltiple variables
+## Declaring Multiple variables
 
-var_country, var_city,  var_city_age, var_city_is_true, var_city_is_light_on = "Kenya", "Nakuru", "30", True, True
+var_country, var_city,  var_city_age, var_city_is_true, var_city_is_light_on = "Kenya", "Nakuru", 30, True, True
 
 print(var_country)
 print(var_city)
+
+### Exercises: Level 2
+# Checking data types
+
+print(type(var_country))
+print(type(var_city))
+print(type(var_city_age))
+
+
+## Finding the length of a string
+
+print(len(var_city))
+print(len(var_country))
