@@ -1,45 +1,46 @@
-# # This is Day 2 Practice
+# This is Day 2 Practice
 
 
-# first_name = input("Enter your first name: ")
-# last_name = input("Enter your last name: ")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
 
-# full_name = first_name + " " + last_name
+full_name = first_name + " " + last_name
 
-# print("Hello, " + full_name + "!")
-
-
-# person_age = input("Enter your age: ")
-# print ("You are " + person_age + " years old.") 
+print("Hello, " + full_name + "!")
 
 
-# # Dict
-# hr_personal_info = {'Name':"Hellen Savallah", 'age': 42, 'City': "Nairobi", 'Salary': "100,000"}
-
-# print(hr_personal_info)
-# print(type(hr_personal_info))
+person_age = input("Enter your age: ")
+print ("You are " + person_age + " years old.") 
 
 
 
-# # # int to float
-# #  num_int = 10
-# # print('num_int',num_int)         # 10
-# # num_float = float(num_int)
-# # print('num_float:', num_float)   # 10.0
+# Dict
+hr_personal_info = {'Name':"Hellen Savallah", 'age': 42, 'City': "Nairobi", 'Salary': "100,000"}
+
+print(hr_personal_info)
+print(type(hr_personal_info))
 
 
-# # float to int
 
-# gravity = 9.34
-# print(int(gravity))
+# # int to float
+#  num_int = 10
+# print('num_int',num_int)         # 10
+# num_float = float(num_int)
+# print('num_float:', num_float)   # 10.0
 
-# # int to str
-# num_int = 10
-# print(num_int)                  # 10
-# num_str = str(num_int)
-# print(num_str)                  # '10'
 
-## Declaring Multiple variables
+# float to int
+
+gravity = 9.34
+print(int(gravity))
+
+# int to str
+num_int = 10
+print(num_int)                  # 10
+num_str = str(num_int)
+print(num_str)                  # '10'
+
+# Declaring Multiple variables
 
 var_country, var_city,  var_city_age, var_city_is_true, var_city_is_light_on = "Kenya", "Nakuru", 30, True, True
 
@@ -58,3 +59,17 @@ print(type(var_city_age))
 
 print(len(var_city))
 print(len(var_country))
+
+
+# comparing strings length using == operator
+
+num_1 = "Jay"
+num_2 = "Jonn Wick"
+
+
+print(num_1 == num_2)
+
+if len(num_1) == len(num_2):
+    print("The strings are the same length")
+else:
+    print("The strings are not the same length")
