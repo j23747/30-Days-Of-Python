@@ -49,3 +49,11 @@ number_of_years = 100 - input_your_age
 
 your_age_in_secs = number_of_years * 365 * 24 * 60 * 60
 print("Your age in seconds is: ", your_age_in_secs)
+
+#23. Write a Python script that displays the following table?
+
+print("a",        "a^2",            "a^3")
+print("1",         1 * 1,            1 * 1 * 1)
+print("2",         2 * 2,            2 * 2 * 2)
+print("3",         3 * 3,            3 * 3 * 3)
+print("4",         4 * 4,            4 * 4 * 4)
