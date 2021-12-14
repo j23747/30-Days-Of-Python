@@ -37,3 +37,8 @@ var_dragon = "Dragooon"
 # print(len(var_dragon)) == len(var_python)
 
 print("Python" == "Python", "Python" == "Dragon")
+
+
+
+
+print(type(9.8) == type(10))
