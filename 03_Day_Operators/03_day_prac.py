@@ -42,3 +42,10 @@ print("Python" == "Python", "Python" == "Dragon")
 
 
 print(type(9.8) == type(10))
+
+
+input_your_age = int(input("Enter your age: "))
+number_of_years = 100 - input_your_age
+
+your_age_in_secs = number_of_years * 365 * 24 * 60 * 60
+print("Your age in seconds is: ", your_age_in_secs)
