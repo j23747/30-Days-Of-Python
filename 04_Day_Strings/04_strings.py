@@ -13,7 +13,7 @@ coding_for_all = 'Coding' + ' For' + ' All'
 
 print(coding_for_all)
 
-
+## 3. Declare a variable named company and assign it to an initial value "Coding For All".
 var_company = 'Coding For All'
 
 print(var_company)
@@ -21,4 +21,18 @@ print(var_company)
 
 print(var_company.swapcase())
 
-## 7. Change all the characters to lowercase letters using _lower()_ method.
+## 7.Change all the characters to lowercase letters using _lower()_ method.
+
+print(var_company.lower())
+
+
+## 8. Use capitalize(), title(), swapcase() methods to format the value of the string _Coding For All_.
+
+print(var_company.capitalize())
+print(var_company.title())
+print(var_company.swapcase())
+
+
+## Cut(slice) out the first word of _Coding For All_ string.
+
+print(var_company.split()[1])
