@@ -65,3 +65,9 @@ var_full_names = 'Josphat Mwania'
 
 var_new_name = var_full_names.replace('Josphat', 'Phatjay')
 print(var_new_name)
+
+## 12. Change Python for Everyone to Python for All using the replace method or other methods.
+
+var_python_for_everyone = 'Python for Everyone'
+var_python_for_all = var_python_for_everyone.replace('Everyone', 'All')
+print(var_python_for_all)
