@@ -49,3 +49,19 @@ print(var_company.index('Coding'))
 
 my_string = "Where's Waldo?"
 print(my_string.find("Waldo", 0, 6))
+
+
+## 11. Replace the word coding in the string 'Coding For All' to Python.
+
+var_company = 'Coding For All'
+
+var_replaced_string = var_company.replace('Coding', 'Python')
+
+print(var_replaced_string)
+
+## Another example
+
+var_full_names = 'Josphat Mwania'
+
+var_new_name = var_full_names.replace('Josphat', 'Phatjay')
+print(var_new_name)
