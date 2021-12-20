@@ -33,6 +33,19 @@ print(var_company.title())
 print(var_company.swapcase())
 
 
-## Cut(slice) out the first word of _Coding For All_ string.
+## 9. Cut(slice) out the first word of _Coding For All_ string.
 
 print(var_company.split()[1])
+
+## 10. Check if _Coding For All_ string contains a word Coding using the method index, find or other methods.   
+
+var_company = 'Coding For All'
+
+print(var_company.find('Coding'))
+print(var_company.index('Coding'))
+
+
+## Another example string.index(substring, start, end)
+
+my_string = "Where's Waldo?"
+print(my_string.find("Waldo", 0, 6))
