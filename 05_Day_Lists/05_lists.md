@@ -133,7 +133,7 @@ We access each item in a list using their index. A list index starts from 0. The
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
-first_fruit = fruits[0] # we are accessing the first item using its index
+first_fruit = fruits[0] # we are accessingf the first item using its index
 print(first_fruit)      # banana
 second_fruit = fruits[1]
 print(second_fruit)     # orange
