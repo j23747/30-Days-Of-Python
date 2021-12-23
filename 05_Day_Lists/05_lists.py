@@ -27,6 +27,7 @@ does_exist = 'Richardd' in siblings
 print(does_exist)
 
 
+
 # Append (adding an item to the end of the list)
 
 siblings.append('Cvavy')
@@ -62,3 +63,36 @@ del siblings[0]
 print(siblings)
 
 
+##  Finding the index of an item
+
+programming_languages = ['Python', 'Java', 'C++', 'C#', 'JavaScript']
+
+programming_languages.index('Java')
+
+print(programming_languages.index('Java'))
+
+
+## Reverse a list
+
+programming_languages = ['Python', 'Java', 'C++', 'C#', 'JavaScript']
+
+programming_languages.reverse()
+print(programming_languages)
+
+
+## Sort a list
+
+
+programming_languages = ['Python', 'Java', 'C++', 'C#', 'JavaScript']
+programming_languages.sort()  # ascending   alphabetical order
+print(programming_languages)
+
+
+programming_languages.sort(reverse=True)  # descending  alphabetical order
+print(programming_languages)
+
+## example 2
+lst = ['item1', 'item2']
+lst.sort()                # ascending
+lst.sort(reverse=True)    # descending
+print(lst)
