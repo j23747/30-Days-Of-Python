@@ -96,3 +96,4 @@ lst = ['item1', 'item2']
 lst.sort()                # ascending
 lst.sort(reverse=True)    # descending
 print(lst)
+
