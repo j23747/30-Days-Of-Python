@@ -51,7 +51,7 @@ A tuple is a collection of different data types which is ordered and unchangeabl
   # syntax
   empty_tuple = ()
   # or using the tuple constructor
-  empty_tuple = tuple()
+ ## empty_tuple = tuple()
   ```
 
 - Tuple with initial values
