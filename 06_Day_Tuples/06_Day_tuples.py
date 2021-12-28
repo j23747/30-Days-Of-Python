@@ -34,7 +34,24 @@ tuple_students = ('Eric', 'Josphat', 'Clare', 'Nick', 'Sophie', 'Abdul')
 first_student = tuple_students[0]
 print(first_student)
 
-fifth_student = tuple_students[5]
+## accessing index 5 item
+fifth_student = tuple_students[4]
 print(fifth_student)
 # print(tuple_students)
 
+## Example 2
+
+fruits = ('banana', 'orange', 'mango', 'Melon', 'lemon')
+first_fruit = fruits[0]
+second_fruit = fruits[1]
+last_index =len(fruits) - 1
+last_fruit = fruits[last_index]
+print(first_fruit)
+print(second_fruit)
+print(last_fruit)
+
+## second last item
+
+second_last_index = len(fruits) - 2 # negative indexing
+second_last_fruit = fruits[second_last_index]
+print(second_last_fruit)
