@@ -97,3 +97,27 @@ lst.sort()                # ascending
 lst.sort(reverse=True)    # descending
 print(lst)
 
+## Join the following lists
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
+Join_lists = front_end + back_end
+print(Join_lists)
+
+## After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+
+insert_python_sql = Join_lists.copy()
+insert_python_sql.insert(5, 'Python')
+insert_python_sql.insert(6, 'SQL')
+print(insert_python_sql)
+
+
+### Exercises: Level 2
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+
+ages.sort(reverse=True)
+print(ages)

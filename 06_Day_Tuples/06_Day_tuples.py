@@ -55,3 +55,15 @@ print(last_fruit)
 second_last_index = len(fruits) - 2 # negative indexing
 second_last_fruit = fruits[second_last_index]
 print(second_last_fruit)
+
+
+## joinig  tuples
+
+# joined_tuples = tuple_1 + tuple_2 + tuple_3
+# print(joined_tuples)
+
+tpl1 = ('item1', 'item2', 'item3')
+tpl2 = ('item4', 'item5','item6')
+joined_tuples_items = tpl1 + tpl2
+
+print(joined_tuples_items)
