@@ -35,3 +35,23 @@ print(fruits)
 removed_fruit = fruits.pop()
 print(fruits)
 
+## clearing items in a set
+fruits.clear()
+print(fruits)
+
+
+### Deleting a Set
+
+## If we want to delete the set itself we use _del_ operator.
+
+## _del_ operator is used to delete a set. / fruits
+
+st = {'item1', 'item2', 'item3', 'item4'}
+del st
+
+
+
+kids = {'Emma', 'Noah', 'Olivia', 'Liam', 'Ava', 'Sophia', 'Mason', 'Isabella', 'Jacob', 'Mia', 'William'}
+
+del kids
+# print(kids)
