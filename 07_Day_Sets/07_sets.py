@@ -85,8 +85,30 @@ print(whole_numbers.difference(even_numbers))
 database_languages = {'SQL', 'Python', 'Java', 'C++', 'C#', 'JavaScript', 'PHP', 'C', 'Ruby'}
 programming_languages = {'Python', 'Java', 'C++', 'C#', 'JavaScript', 'PHP', 'C', 'Ruby'}
 
+## Example 3
 database_languages.difference(programming_languages)
 programming_languages.difference(database_languages)
 
 print(database_languages.difference(programming_languages))
 
+
+
+## Day 7 exercise
+
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+
+
+## Find the length of the set it_companies
+
+print(len(it_companies))
+
+## Add 'Twitter' to the set it_companies
+it_companies.add('Twitter')
+print(len(it_companies))
+print(it_companies)
+
+
+## i nsert mutiple items to the set it_companies
+
+it_companies.update (['Linkedin', 'Tesla', 'Glassdoor'])
+print(it_companies)
