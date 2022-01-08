@@ -112,3 +112,39 @@ print(it_companies)
 
 it_companies.update (['Linkedin', 'Tesla', 'Glassdoor'])
 print(it_companies)
+
+
+
+## Remove 'Twitter' from the set it_companies
+
+it_companies.remove('Twitter')
+print(it_companies)
+
+
+## remove multiple items from the set it_companies
+
+
+it_companies.remove('Tesla')
+it_companies.remove('Glassdoor')
+it_companies.remove('Linkedin')
+it_companies.remove('Amazon')
+
+print(it_companies)
+
+## use pop to remove a random item from the set it_companies
+
+it_companies.pop()
+print(it_companies)
+
+
+## example 1
+
+teachers = {'Mark', 'Susan', 'Anthony', 'Steve', 'Joe', 'John', 'David', 'Jennifer', 'Lisa', 'Nancy', 'Betty'}
+print(teachers)
+print(len(teachers))
+print(teachers)
+print(len(teachers))
+
+teachers.discard('Mark')
+print(teachers)
+print(len(teachers))
