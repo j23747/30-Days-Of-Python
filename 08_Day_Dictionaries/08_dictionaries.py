@@ -27,6 +27,20 @@ developer_01 = {
         'postal_code': '00200'
     }
 }
-
+## Accessing items from the dictionary
 print(developer_01['Stacks'])
 print(developer_01['full_address'])
+
+## Using the get method to access items by key name
+
+print(developer_01.get('First_name'))
+print('Is the first name' in developer_01.get('First_name'))
+
+
+## Adding items to the dictionary
+
+developer_01['Age'] = '30'
+developer_01['Salary'] = 'Kes100,000'
+
+print(developer_01.get('Age'))
+print(developer_01.get('Salary'))
