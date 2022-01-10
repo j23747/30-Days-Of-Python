@@ -44,3 +44,19 @@ developer_01['Salary'] = 'Kes100,000'
 
 print(developer_01.get('Age'))
 print(developer_01.get('Salary'))
+
+## add more items to the dictionary
+
+developer_01['Department'] = 'IT'
+developer_01['Nature_of_employment'] = 'Full Time'
+
+print(developer_01.get('Department'))
+print(developer_01.get('Nature_of_employment'))
+
+## Changing items in the dictionary/modyfing items in the dictionary
+
+developer_01['residence'] = 'Nairobi'
+developer_01['Position'] = 'Senior Android Developer'
+
+print(developer_01.get('residence'))
+print(developer_01.get('Position'))
