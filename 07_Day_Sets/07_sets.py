@@ -145,6 +145,10 @@ print(len(teachers))
 print(teachers)
 print(len(teachers))
 
-teachers.discard('Mark')
+teachers.remove('Mark')
 print(teachers)
 print(len(teachers))
+
+## Remove method  raises an error if the item is not in the set but discard method does not raise an error
+teachers.pop()
+print(teachers)
