@@ -53,10 +53,53 @@ developer_01['Nature_of_employment'] = 'Full Time'
 print(developer_01.get('Department'))
 print(developer_01.get('Nature_of_employment'))
 
-## Changing items in the dictionary/modyfing items in the dictionary
+## Changing items in the dictionary/modifyng items in the dictionary
 
 developer_01['residence'] = 'Nairobi'
 developer_01['Position'] = 'Senior Android Developer'
 
 print(developer_01.get('residence'))
 print(developer_01.get('Position'))
+
+developer_01.pop('full_address')
+
+print(developer_01.get('full_address'))
+
+
+## clearing a dict
+
+print(developer_01.clear())
+
+## deleting a dict completely
+
+del developer_01
+
+
+## copying a dict
+
+# example 1
+dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
+
+print(dct_copy)
+
+
+## example 2
+
+siblings_dict = {'Name': 'Fred', 'Age': '25', 'Occupation': 'Engineer' }
+
+copy_siblings_dict = siblings_dict.copy()
+
+print(copy_siblings_dict)
+
+## get dict keys as a list use _keys()
+
+keys = siblings_dict.keys()
+print(keys)
+
+
+dog = {}
+
+dog = {'Name':'Lucky', 'Color':'black', 'Breed': 'Germany Shepherd', 'legs':'tall', 'age': '5' } 
+print(dog)
+print(dog.get('Name'))
