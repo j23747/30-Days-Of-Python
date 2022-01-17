@@ -64,9 +64,54 @@ for random in randoms :
 
 ## example 5
 
-language = 'Java'
+language = 'Javascript'
 for letter in language:
     print(letter)
 
 for i in range(len(language)):
     print(language[i])
+
+
+## For loop example with tuple
+
+invoices = (0, 1, 2, 3, 4, 5)
+for invoice in invoices:
+    print(invoice)
+
+
+## For loop with a dict
+
+employee = {
+    'first_name': 'Josphat',
+    'last_name': 'Mwania',
+    'age': 48,
+    'county': 'Nairobi',
+    'is_married': False,
+    'top_skills': ['Java', 'Spring boot', 'HTML', 'CCS', 'Python'],
+    'addres': {
+        'street': 'Lenana Road',
+        'zipcode': '00200'
+    }
+  
+}
+
+for key in employee:
+    print(key)
+
+for key, value in employee.items():
+    print(key, value)
+    
+
+## Loops example in set
+
+it_companies = {'FaceBook', 'Google', 'Linkedin'}
+
+for company in it_companies:
+    print(company)
+
+## example 3
+siblings = {'Fred', 'Slaks', 'Denis'}
+
+for sibling in siblings:
+    print(sibling)
+
