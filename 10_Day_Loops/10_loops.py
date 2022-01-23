@@ -115,3 +115,51 @@ siblings = {'Fred', 'Slaks', 'Denis'}
 for sibling in siblings:
     print(sibling)
 
+### Break and Continue - Part 2
+
+invoices = (0, 1, 2, 3, 4, 5)
+for invoice in invoices:
+    print(invoice)
+    if invoice == 3:
+        break
+
+
+### Example with continue
+
+
+# invoices = (0, 1, 2, 3, 4, 5)
+# for invoice in invoices:
+#     print(invoice)
+#     if invoice == 3:
+#         continue
+#     print('the next should be', invoice + 3) 
+#         if invoice != 5:
+#     else print("loop is end")
+
+# print('loop ended!')
+
+
+
+invoices = (0,1,2,3,4,5)
+for invoice in invoices:
+    print(invoice)
+    if invoice == 3:
+        continue
+    print('Next number should be ', invoice + 93) if invoice != 5 else print("loop's end")
+print('outside the loop')
+
+
+try:
+    x = int(input('Enter a number: '))
+    print(x)
+
+except:
+        print('You did not enter a number!')
+
+
+try:
+    q = str(input('Enter a string: '))
+    print(q)
+
+except:
+    print("You entered an interger")
