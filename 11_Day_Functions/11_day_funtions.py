@@ -81,3 +81,15 @@ def area_of_triangle(b, h):
 
 
 print(area_of_triangle(6, 2))
+
+## example 4 removed item function
+
+def remove_item():
+    wild_animals = ['Lion', 'Girraffe', 'Buffalo', 'Hyena'];
+    print(wild_animals.remove('Buffalo'))
+
+    # return wild_animals
+    print(wild_animals)
+
+
+remove_item()
