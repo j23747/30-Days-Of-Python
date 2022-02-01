@@ -13,4 +13,12 @@ person = {
     "city":'Helsinki'
 }
 
+def add_two_numbers(a, b):
 
+    return  a + b
+    a = 3
+    b = 7
+
+# print(add_two_numbers(2, 3))
+
+add_two_numbers(3, 4)
